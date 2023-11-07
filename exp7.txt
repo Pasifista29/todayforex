@@ -1,0 +1,70 @@
+APP.JS
+
+import './App.css';
+import Function from './Function';
+import Class1 from './Class1';
+
+function App() {
+  return (
+    <div className="App">
+      <>
+      <Function />
+      <Class1 />
+      </>
+      <header className="App-header">
+        <h1>Hello</h1>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+CLASS1.JS
+
+import React, {Component} from "react";
+
+class Class1 extends Component{
+    render(){
+        return(
+            <div>
+                <p><h1>This is class Component</h1></p><br></br>
+                <ul>
+                    <li>X</li>
+                    <li>Y</li>
+                    <li>Z</li>
+                </ul>
+            </div>
+        );
+    }
+}
+
+export default Class1;
+
+
+FUNCTION.JS
+
+import React from "react";
+
+function Function(){
+    return(
+        <div>
+            <p><h1>This is Function Component</h1></p><br></br>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+        </div>
+    );
+}
+
+export default Function;

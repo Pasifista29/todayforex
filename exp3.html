@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="">
+
+        <h1>Student Registration Form</h1>
+
+        <label for="">Name: </label>
+        <input type="text" name="Name"><br><br>
+
+        <label for="">Roll No.: </label>
+        <input type="text" name="Roll"><br><br>
+
+        <label for="">Username: </label>
+        <input type="text" name="Username"><br><br>
+
+        <label for="">Password: </label>
+        <input type="password"><br><br>
+
+        <label for="">Gender: </label>
+        <input type="radio" value="Male" id="gender" name="gender">Male
+        <input type="radio" value="Female" id="gender" name="gender">Female <br><br>
+
+        <label for="">Area of interest: </label>
+        <input type="checkbox" value="programming" id="interest">Programming <br>
+        <span id="marketing"><input type="checkbox" value="marketing" id="interest">Marketing</span><br>
+        <span id="finance"><input type="checkbox" value="finance" id="interest">Finance</span><br>
+        <span id="data"><input type="checkbox" value="data" id="interest">Data Analyst</span><br>
+        <br><br>
+        <button>Submit Form</button>
+        <button>Clear Form</button>
+    </form>
+
+</body>
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+        color: black;
+        background-color: white;
+    }
+    label{
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+    label[for='gender']{
+        display: inline;
+    }
+    #marketing{
+        padding-left: 90px;
+    }
+    #finance{
+        padding-left: 75px;
+    }
+    #data{
+        padding-left: 108px;
+    }
+    form{
+        width: 450px;
+        height: 400px;
+        box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 35%;
+    }
+</style>
+</html>
