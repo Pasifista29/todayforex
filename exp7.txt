@@ -1,3 +1,4 @@
+Class and function componenet
 APP.JS
 
 import './App.css';
